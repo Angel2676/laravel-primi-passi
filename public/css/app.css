@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  font-size: 20px;
+  padding: 15px;
+  list-style: none;
+}
+
+main {
+  background-image: url("https://www.dispenserstudio.it/wp-content/uploads/2017/10/21.jpg");
+  display: flex;
+}
+
+.cards {
+  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 85%;
+  display: flex;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+img {
+  width: 300px;
+}
+
+.card {
+  position: relative;
+}
+
+.card h3 {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+}
+
+.card:hover {
+  transform: scale(110%);
+}
+

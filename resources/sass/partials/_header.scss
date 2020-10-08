@@ -1,0 +1,10 @@
+header {
+    @include flex;
+}
+ul {
+    @include flex2;
+
+}
+ ul li {
+     @include headerSize;
+ }
